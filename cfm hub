@@ -1,0 +1,33 @@
+--[[
+    BIGBANG HUB - Blox Fruits Edition
+    Version: Prime Update v2.0
+    Optimized for Delta & PC Executors
+]]
+
+local BigBangHub = {
+    -- Configurações Gerais
+    FPS_Boost = true, -- Define de entrada de 120 FPS
+    CurrentSea = "Sea 1", -- Altere conforme progrida: Sea 1, Sea 2 ou Sea 3
+}
+
+-- FUNÇÕES PRINCIPAIS --
+
+function BigBang_Main()
+    print("BigBang Hub Loaded Successfully!")
+
+    -- [MODO PRIME - NÍVEL 1] Basic Essentials
+    local Level1 = {
+        AutoFarm = function() print("Farmando NPCs...") end,
+        AutoBoss = function() print("Caçando Bosses...") end,
+        AutoBounty = function() print("Coletando Bounty...") end,
+        AutoRaid  = function() print("Iniciando Raid Automática...") end,
+        UltraFarm = function() print("Ultra Farm Ativado!") end,-}
+
+    -- [MODO PRIME - NÍVEL 2] The Transition (Lv 700+)
+    local Level2 = {
+        GoToSea2 = function() print("Viajando para Sea 2...") end,
+        CollectAll = function() print("Pegando todos os itens do mapa...") end,-}
+
+    -- [MODO PRIME - NÍVEL 3] The Mastery (Lv 1500+)
+    local Level3 = {
+        GoToSea3  = function() print("Viajando para Sea 3...") end,-}
